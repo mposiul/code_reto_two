@@ -1,0 +1,155 @@
+.section {
+  padding-top: var(--padding-section);
+  padding-bottom: var(--padding-section);
+  background-color: red;
+}
+.section-slider{
+  width: 100%;
+  margin: auto;
+  padding:auto;
+  display: flex;
+  gap: 0.5rem;
+  
+  justify-content: center;
+  
+}
+
+.section--hero {
+  background-image: url('https://i.postimg.cc/y8wNFWwH/Fondo.webp');
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  min-height: 100vh;
+}
+
+.container {
+  width: 80%;
+  max-width: var(--max-width-container);
+  margin: auto;
+  padding-left: var(--padding-container);
+  padding-right: var(--padding-container);
+ 
+}
+
+.container--footer {
+  background-color: black;
+  box-sizing: border-box;
+  max-width: var(--max-width-container);
+  
+  margin: 0 auto;
+  padding: auto;
+  padding-left: var(--padding-container);
+  padding-right: var(--padding-container);
+width: 80%;
+
+}
+/* .slider {
+
+
+  background-image: url('../../assets/img/slider01.jpg');
+  background-position: center;
+  background-size: cover;
+  box-sizing: border-box;
+  padding-left: 200px;
+  padding-right: 200px;
+  min-height: 80vh;
+
+} */
+
+.f-elements {
+  display: flex;
+}
+
+.f-elements--header {
+  align-items: center;
+  justify-content: space-between;
+}
+
+.f-elements--center {
+  align-items: center;
+  justify-content: center;
+}
+
+.f-elements--responsive {
+  flex-direction: column;
+}
+
+/*--------------------------------*/
+.grid-container {
+
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.grid-container > div {
+ 
+  /* border: 5px solid black; */
+  color: white;
+  height: 300px;
+ 
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+#btn-mas{
+  display: none;
+}
+
+
+.icon-float{
+position: fixed;
+bottom: 20px;
+right: 20px;
+
+}
+.redes a, .icon-plus-1{
+  font-size:xx-large;
+display: block;
+text-decoration: none;
+background: #cc2b2b;
+color: #fff;
+width: 55px;
+height: 55px;
+line-height: 55px;
+text-align: center;
+border-radius: 50%;
+box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
+transition: all 500ms ease;
+
+}
+
+.redes a:hover{
+  background: #fff;
+  color: #cc2b2b;
+}
+
+.redes a {
+  margin-bottom: -15px;
+  opacity: 0;
+  visibility: hidden;
+}
+#btn-mas:checked~ .redes a{
+  margin-bottom: 10px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.icon-plus-1{
+cursor: pointer;
+background: #f44141;
+font-size: 23px;
+}
+#btn-mas:checked~ .btn-mas .icon-plus-1{
+  transform: rotate(137deg);
+}
+
+/*--------------------------------*/
+@media (min-width: 768px) {
+  .f-elements--responsive {
+    flex-direction: row;
+  }
+}

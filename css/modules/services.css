@@ -1,0 +1,97 @@
+.services-container {
+    background-color: #f5f5f5;
+    max-width: var(--services-max-width-container);
+    align-items: center;
+    padding: var(--padding-container);
+    margin: auto;
+    width: 80%;
+}
+
+.grid-services {
+    max-width: var(--services-med-width-container);
+    background-color: white;
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    justify-content: center;
+    align-items:center;
+    /*justify-items: left;/**/
+    margin: auto;
+}
+
+.box-service {
+    /*max-width: 150px;*/
+    /*background-color: darkolivegreen;/**/
+    /*border: 1px solid black;*/
+    border-radius: var(--secondary-border-radius);
+    overflow: hidden;
+    /*box-shadow:
+        0 0 0.0125rem 0.0625rem var(--primary-shadow-color),
+        0 0 0.25rem 0.125rem var(--primary-shadow-color);*/
+    transition: box-shadow 0.25s;
+    text-decoration: none;
+    font-family: var(--primary-font-family);
+    font-size: 1rem;
+    color: black;
+    height: 35px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-start;
+}
+
+.box-service:hover {
+    box-shadow:
+        0 0 0.125rem 0.0625rem var(--primary-highlight-color);
+        /*0 0 0.25rem 0.125rem var(--primary-highlight-color);*/
+}
+
+.services__body {
+    background-color: var(--reverse-secondary-shadow-color);
+    padding: 1rem;
+    height: 100%;
+}
+
+.serices__title {
+    font-size: 1.5rem;
+    text-align: center;
+    margin: 0;
+}
+
+.services__subtitle {
+    max-width: var(--services-med-width-container);
+    /*background-color: blueviolet;/**/
+    background-color: #f5f5f5;
+    font-family: var(--primary-font-family);
+    font-size: 1.25rem;
+    color: black;
+    text-align: left;
+    margin: auto;
+}
+
+.services-footer {
+    padding-top: 0.5rem;
+    max-width: var(--services-med-width-container);
+    min-width: 320px;
+    margin: auto;
+}
+
+.services-footer__img {
+    width: 100%;
+}
+
+.gap-sm {
+    gap: calc(var(--padding-section) * 0.5);
+}
+
+.gap-md {
+    gap: var(--padding-section);
+}
+
+.gap-l {
+    gap: calc(var(--padding-section) * 1.5);
+}
+
+.gap-sl {
+    gap: calc(var(--padding-section) * 2);
+}
