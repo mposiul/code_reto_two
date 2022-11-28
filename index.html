@@ -1,37 +1,129 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Mr+Dafoe&family=Roboto&display=swap"
-            rel="stylesheet">
-        <title>Edison Pescoran</title>
-        <link rel="stylesheet" href="./css/index.css">
-        <link rel="stylesheet" href="./css/fontello.css">
-    
-        <!-------------CHRISTIAN-------------------------------------->
-        <link rel="stylesheet" href="./css/estilos.css">
-        <link rel="stylesheet" href="./css/nivo-slider.css">
-        <link rel="stylesheet" href="./themes/default/default.css">
-    
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Slab:ital@1&display=swap"
-            rel="stylesheet">
-    
-        <script src="./js/jquery-3.1.1.min.js"></script>
-        <script src="./js/jquery.nivo.slider.js"></script>
-    
-        <script type="text/javascript">
-            $(window).on('load', function () { $('#slider').nivoSlider(); });
-        </script>
-        <!-------------CHRISTIAN-------------------------------------->
-    </head>
-<body>
-    
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Mr+Dafoe&family=Roboto&display=swap"
+        rel="stylesheet">
+    <title>Edison Pescoran</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/fontello.css">
+
+    <!-------------CHRISTIAN-------------------------------------->
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="stylesheet" href="./css/nivo-slider.css">
+    <link rel="stylesheet" href="./themes/default/default.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Josefin+Slab:ital@1&display=swap"
+        rel="stylesheet">
+
+    <script src="./js/jquery-3.1.1.min.js"></script>
+    <script src="./js/jquery.nivo.slider.js"></script>
+
+    <script type="text/javascript">
+        $(window).on('load', function () { $('#slider').nivoSlider(); });
+    </script>
+    <!-------------CHRISTIAN-------------------------------------->
+</head>
+
+<body class="body">
+    <header class="header">
+        <nav class="nav" id="header-nav">
+            <div class="container f-elements f-elements--header p-relative">
+                <a href="#hero"><img src="./assets/img/Logo.webp" alt="Edison Pescoran" width="40" height="40"
+                        class="nav__logo">
+                </a>
+                <a href="#header-nav" class="nav__icon nav__icon--menu"><i class="bi bi-list"></i></a>
+
+                <a href="#header-Close" class="nav__icon  nav__icon--close"><i class="bi bi-x-circle"></i></a>
+                <ul
+                    class="list list--header f-elements f-elements--center f-direction-column md:f-direction-row gap-md">
+                    <li><a href="#hero" class="list__link">Reserva</a></li>
+                    <li><a href="#iWeeks" class="list__link">Restaurante</a></li>
+                    <li><a href="#contacto" class="list__link">Promociones</a></li>
+                    <li><a href="#contacto" class="list__link">Contactos</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <!-------CHRISTIAN---------------------------------------------------->
+        <section>
+            <div class="slider-borra">
+                <img src="./assets/img/slider01.webp" class="slider-img">
+            </div>
+        </section>
+        <!-- <section>
+            <div class="slider">
+                <div class="slider-wrapper theme-default">
+                    <div id="slider" class="nivoSlider">
+                        <img src="./assets/img/slider01.webp" alt="" />
+                        <img src="./assets/img/slider02.webp" alt=""
+                            title="Disfruta de un hambiente cómodo, para tu tranquilidad" />
+                        <img src="./assets/img/slider03.webp" alt="" title="Hotel El Olivar, tu mejor opción" />
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+
+
+
+        <article class="article">
+            <div class="container-article">
+                <p><br>Ubicado a 15 minutos del aeropuerto y a 5 minutos a pie del centro de la ciudad. Hotel el Olivar
+                    Sede
+                    en
+                    Tacna, es un hotel moderno, funcional y acogedor donde encontrarás cómodas
+                    habitaciones que te harán sentir como en casa. Una excelente opción para los viajeros que buscan
+                    eficiencia y un servicio a detalle.
+                    Aquí podrás disfrutar de un delicioso desayuno buffet y una variada carta en nuestro restaurante, La
+                    Plaza Bar&amp; Grill Tacna. Además, cuenta con 7 amplias salas con capacidad para realizar eventos
+                    de
+                    hasta 300 personas. Disfruta
+                    una experiencia única en Casa Andina Select Tacna.
+                    <br><br>
+                    .: |Check-in: 14:00 p.m. - Check-out: 12:00 p.m.| :.
+                    <br><br>
+                </p>
+            </div>
+        </article>
+        <section class="banner">
+            <div>
+                <p>- Disfruta Tacna en nuestra Casa</p>
+            </div>
+            <!-- <div class="banner-img">
+                <img src="./assets/img/Tabla-foto1.webp">
+                <img src="./assets/img/Tabla-foto2.webp">
+                <img src="./assets/img/Tabla-foto3.webp">
+
+            </div> -->
+            <div class="container">
+                <section class="section-slider">
+                    <img src="./assets/img/Tabla-foto1.webp">
+                    <img src="./assets/img/Tabla-foto2.webp">
+                    <img src="./assets/img/Tabla-foto3.webp">
+                </section>
+
+            </div>
+            <div>
+                <p class="parrofo">⁂ Un buen descanso, en un buen lugar ⁂</p>
+            </div>
+        </section>
+
+        <!-------CHRISTIAN------------------------------------------------->
+    </main>
+
+
+
+
 </body>
+
 </html>
